@@ -1,0 +1,14 @@
+
+spring:
+  application:
+    name: loja
+  profile:
+    active: default
+app:
+  fornecedor:
+    uri: http://fornecedor
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
